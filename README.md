@@ -9,9 +9,7 @@ Data cleaning pipeline built in pure Python:
 - Remove inactive users
 - Remove duplicate pages
 
-## Tech Stack
-- Python
-- JSON
+---
 
 ### People You May Know
 Friend recommendation algorithm built in pure Python:
@@ -21,3 +19,10 @@ Friend recommendation algorithm built in pure Python:
 - Filtered out the user themselves and existing direct friends
 - Counted mutual friend connections to rank suggestions
 - Sorted suggestions by mutual friend count (highest first)
+
+---
+
+## Tech Stack
+- Python
+- JSON
+
