@@ -22,6 +22,20 @@ Friend recommendation algorithm built in pure Python:
 
 ---
 
+
+### Pages You Might Like
+Page recommendation algorithm built in pure Python:
+- Input: massive_data2.json
+- Built a lookup dictionary mapping each user to their liked pages
+- Found shared interests between target user and every other user
+- Filtered out users with zero shared interests (relevance check)
+- Suggested pages liked by similar users that target user doesn't already follow
+- Weighted suggestions by degree of shared interest
+- Sorted suggestions by relevance score (highest first)
+
+---
+
+
 ## Tech Stack
 - Python
 - JSON
